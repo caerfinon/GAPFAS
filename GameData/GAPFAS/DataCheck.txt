@@ -70,12 +70,6 @@ CONTRACT_TYPE
 		baseFlightNum = "KA" + @/fltLocationSelection
 	}
 
-    DATA
-    {
-        type = List<Launchsite>
-        MySites = AllNonStockLaunchSites()
-     }
-
 // -----------------------------------------------------------------
 //BEHAVIOURS FOR CONTRACT
 // -----------------------------------------------------------------
