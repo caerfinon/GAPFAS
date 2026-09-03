@@ -1,13 +1,13 @@
-#GAPFAS - A GAP For All Systems
+# GAPFAS - A GAP For All Systems
 Provides flight contracts to Kerbal Konstructs bases on any Home World planet
 
-##Requires
+## Requires
 
 - Contract Configurator
 - Waypoint Manager
 - Ketbal Konstructs
 
-##Suggests
+## Suggests
 
 - NavUtilities continued
 - Kramax Autopilot Continued
