@@ -10,3 +10,7 @@ Suggests
   - NavUtilities continued
   - Kramax Autopilot Continued
   - MechJeb2
+  
+Manual Instalation
+
+Move the folders within the GameData folder in the ZIP archive into your game's GameData folder
