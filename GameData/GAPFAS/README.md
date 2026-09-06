@@ -5,6 +5,7 @@ Provides flight contracts to Kerbal Konstructs bases on any Home World planet
 
 - Contract Configurator
 - Waypoint Manager
+- Module Manager
 - Ketbal Konstructs
 
 ## Suggests
