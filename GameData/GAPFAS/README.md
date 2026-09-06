@@ -21,8 +21,8 @@ This is done so that if a future update makes a change to the Groups.cfg informa
 won't overwrite what the player has already added to describe their specific home world.
 
 Once you install the mod to your GamesData folder copy the file Groups.cfg.0 to Groups.cfg 
-so that you will have bothe files in your GameData/GAPFAS directories. This will allow 
-The mod to start offereing contracts for the sites you define in your copy of the Groups.cfg
+so that you will have both files in your GameData/GAPFAS directories. This will allow 
+the mod to start offereing contracts for the sites you define in your copy of the Groups.cfg
 
 Should an update make a change to the Groups.cfg.0 file, the player will receive detailed     
 instructions on how to merge the new featured into their Groups.cfg file.  
