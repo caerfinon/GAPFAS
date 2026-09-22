@@ -1,0 +1,36 @@
+// -----------------------------------------------------------------
+// Module manager patch for GAPFAS and Kerbin Side Remastered
+// -----------------------------------------------------------------
+
+@CONTRACT_GROUP[GFAS]:NEEDS[GAPFAS]
+{
+	// The names of your airports:  Full name / site name (typically a short airport ID code or other short name)
+	// The first entry in the list must always be the KSC location on any world 
+	DATA
+    {
+        type = List<string>
+		siteFullName = ["Kerbin Space Center","the Island Airfield","Kola Island Naval Air Station","Jeb's Junkyard and Spaceship Parts","Cape Kerman Space Center","Sandy Island Naval Air Station","Kerman Atoll Launch Facility","Meeda Naval Air Station","Kojave Sands Launch Facility","the Desert Airfield","Polar Research Alpha","Baikerbanur Inland Kerbal Space Center","South Field Airfield","Harvester Airfield","Uberdam Airfield","Kamberwick Green Airfield","Kermundsen Research Station","South Lake Airfield","Hazard Shallows Naval Air Station","Dununda Airport","Round Range Airfield","Nye Island Field","Top Secret Area 15"]
+		siteName = ["KSC","Island Airfield","Kola Island","Jeb's Junkyard","Cape Kerman","Sandy Island","Kerman Atoll","Meeda","Kojave Sands","Desert Airfield","Polar Alpha","Baikerbanur","South Field","Harvester","Uberdam","Kamberwick","Kermundsen ","South Lake","Hazard Shallows","Dununda","Round Range","Nye Island","TSA15]	
+	}
+	
+	// The Waypoint locations of your airports: The LON/LAT of the major runway and terminal
+    // The terminal location is where aircraft need to move to in your base to satisfy contract conditions
+    // The terminal is the location where VIK passengers spawn and need to be picked up from
+   	// The first entry in the list must always be the KSC location on any world 
+	DATA
+    {
+        type = List<double>	
+		siteLAT = [-0.0492631496694876,-1.517718751,-4.159685612,6.952152729,24.90675735,-8.151759148,-37.0721817,37.86918259,6.050330639,-6.520091272,72.56324005,20.6048107,-47.0065155,-56.29705429,38.50753403,36.18170166,-89.87486267,-37.2833786,-14.22684479,-39.29815674,-5.999658585,5.746015549,-60.55518888]
+		siteLON = [-74.614253751157,-71.906177285227,-72.10935211,-77.93811035,-83.62899017,-42.39810181,-71.00325775,-109.843895,-141.9779205,-144.0394052,-78.55982971,-146.5122681,-140.9785461,-10.98251915,-149.6291046,10.60191822,-172.391983,52.56228638,155.2404785,116.2391739,99.51026154,108.7499619,39.25160199]
+		terminalLAT = [-0.0657987936980026,-1.523578027,-4.201423865614,6.93504741,24.898864818525,-8.172256247527,-37.135389531853,37.907866415008,6.015089384,-6.528841525,72.5678546,20.65013495,-46.982452729411,-56.2720794553046,38.511607070690,36.197867461356,-89.89023757,-37.270402216100,-14.244304290719,-39.357950897673,-6.068907170136,5.75631202,-60.49585231]
+		terminalLON = [-74.6234648947342,-71.89942326,-72.147060200731,-77.9316941419132,-83.6569922067701,-42.382236477015,-71.044071998459,-109.850550277716,-141.982658,-144.0300105,-78.50029781,-146.4706789,-140.960497300639,-10.9190394513672,-149.666308634275,10.588907512952,-179.2952324,52.444407514659,155.191626188660,116.173526169433,99.488164771434,108.7648919,39.18218842]
+	}
+	
+	// The Index for multiple site flights. Each corresponds to the data for a named airport defined above. The value is the index of the second airport to be flown to.
+	// The first entry in the list must always be the KSC location on any world and should always be 0  	
+	DATA
+    {
+        type = List<int>
+		siteMultiFlight = [0,4,5,3,6,14,15,9,11,17,6,13,18,16,10,19,12,19,20,19,18,19,17]
+	}
+}
