@@ -10,7 +10,7 @@ Provides flight contracts to Kerbal Konstructs bases on any Home World planet
 
 ## Suggests
 
-- NavUtilities continued
+- NavUtilities Updated
 - Kramax Autopilot Continued
 - MechJeb2
 
