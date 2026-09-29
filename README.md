@@ -8,7 +8,7 @@ Requires
  - Ketbal Konstructs
 
 Suggests
-  - NavUtilities continued
+  - NavUtilities Updated
   - Kramax Autopilot Continued
   - MechJeb2
   
